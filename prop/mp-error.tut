@@ -1,0 +1,9 @@
+% test error
+% missing 'begin' and 'end' keywords
+
+proof mp: A & (A=>B) => B =
+[ A & (A=>B);
+  A;
+  A=>B;
+  B ];
+A & (A=>B) => B;

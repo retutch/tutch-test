@@ -1,0 +1,9 @@
+% test reject
+% Skips a few steps
+
+proof mp: A & (A=>B) => B = 
+begin
+[ A & (A=>B);
+  B ];
+A & (A=>B) => B
+end;
