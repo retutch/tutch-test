@@ -41,7 +41,6 @@ end;
 
 ```
 % test pass
-% Skips a few steps
 
 proof mp: A & (A=>B) => B =
 begin
