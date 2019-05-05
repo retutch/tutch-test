@@ -1,0 +1,14 @@
+% test pass
+
+proof oe: A | B => (A => B) => B =
+begin
+[ A | B;
+  [ A => B;
+    [ A; 
+      B ];
+    [ B;
+      B ];
+    B ];
+  (A => B) => B ];
+A | B => (A => B) => B
+end;

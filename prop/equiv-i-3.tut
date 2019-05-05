@@ -1,0 +1,9 @@
+% test reject
+% rejected because we're using the other definition of A <=> B
+
+proof ei: (B=>A) & (A=>B) => (A <=> B) = 
+begin
+[ (B=>A) & (A=>B);
+  A <=> B ];
+(B=>A) & (A=>B) => (A <=> B)
+end;

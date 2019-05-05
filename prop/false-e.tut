@@ -1,0 +1,8 @@
+% test pass
+
+proof fe: F => A =
+begin
+[ F;
+  A ];
+F => A
+end;

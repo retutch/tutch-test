@@ -1,0 +1,11 @@
+% test pass
+% Safer approach: decompose the parts
+
+proof ei: (B=>A) & (A=>B) => (A <=> B) = 
+begin
+[ (B=>A) & (A=>B);
+  B => A;
+  A => B;
+  A <=> B ];
+(B=>A) & (A=>B) => (A <=> B)
+end;

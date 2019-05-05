@@ -1,0 +1,8 @@
+% test pass
+
+proof not: ~A => A => F =
+begin
+[ A => F;
+  ~A ];
+~A => ~A
+end;

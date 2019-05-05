@@ -1,0 +1,8 @@
+% test pass
+
+proof oi: A => A | B =
+begin
+[ A;
+  A | B ];
+A => A | B
+end;

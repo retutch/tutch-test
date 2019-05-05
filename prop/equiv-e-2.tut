@@ -1,0 +1,8 @@
+% test pass
+
+proof ee: (A <=> B) => (B => A) = 
+begin
+[ A <=> B;
+  B => A ];
+(A <=> B) => (B => A)
+end;

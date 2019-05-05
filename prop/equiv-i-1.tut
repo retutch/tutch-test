@@ -1,0 +1,8 @@
+% test pass
+
+proof ei: (A=>B) & (B=>A) => (A <=> B) = 
+begin
+[ (A => B) & (B => A);
+  A <=> B ];
+(A => B) & (B => A) => (A <=> B)
+end;

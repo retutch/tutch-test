@@ -1,0 +1,9 @@
+% test pass
+% Playing nasty tricks with definitions
+
+proof ei: (A=>B) & (B=>A) => (A <=> B) = 
+begin
+[ A <=> B;
+  (A=>B) & (B=>A) ];
+(A <=> B) => (A=>B) & (B=>A)
+end;

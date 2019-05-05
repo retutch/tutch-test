@@ -1,0 +1,9 @@
+% test pass
+
+proof ti: AT => AT & T =
+begin
+[ AT;
+  T;
+  AT & T ];
+AT => AT & T
+end;
