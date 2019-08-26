@@ -1,0 +1,8 @@
+% test pass
+
+proof ee: (?x:t. ?x:t. A x) => (?x:t. ?y:t. A y) = 
+begin
+[ (?x:t. ?x:t. A x);
+  (?x:t. ?y:t. A y) ];
+(?x:t. ?x:t. A x) => (?x:t. ?y:t. A y)
+end;

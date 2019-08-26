@@ -1,0 +1,8 @@
+% test reject
+
+proof ee: (?x:t. ?x:t. A x) => (?x:t. ?y:t. A x) = 
+begin
+[ (?x:t. ?x:t. A x);
+  (?x:t. ?y:t. A x) ];
+(?x:t. ?x:t. A x) => (?x:t. ?y:t. A x)
+end;
