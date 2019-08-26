@@ -1,0 +1,8 @@
+% test pass
+
+proof ee: A x y => A x y = 
+begin
+[ A (((x))) y;
+  (A x (y)) ];
+(A x y) => A x ((y))
+end;

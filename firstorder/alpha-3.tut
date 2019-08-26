@@ -1,0 +1,8 @@
+% test pass
+
+proof ee: (!x1:t. A x1) => (!y1:t. A y1) = 
+begin
+[ !x2:t. A x2;
+  !y3:t. A y3 ];
+(!x4:t. A x4) => !y5:t. A y5
+end;

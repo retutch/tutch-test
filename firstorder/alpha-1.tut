@@ -1,0 +1,8 @@
+% test pass
+
+proof ee: (!x:t. A x) => (!x:t. A x) = 
+begin
+[ !x:t. A x;
+  !x:t. A x ];
+(!x:t. A x) => !x:t. A x
+end;
