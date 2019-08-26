@@ -1,0 +1,7 @@
+% test error
+
+proof not: A => A =
+begin
+[ A
+  A ]
+end;

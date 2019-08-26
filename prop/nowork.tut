@@ -1,0 +1,7 @@
+% test error
+
+proof not: T =
+begin
+[ T ];
+T
+end;
