@@ -5,4 +5,4 @@ begin
 [ !x:t. A x;
   !y:t. A x ];
 (!x:t. A x) => !y:t. A x
-end;npm 
+end;
