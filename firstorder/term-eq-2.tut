@@ -4,5 +4,6 @@ proof ee: A x y => A x y =
 begin
 [ A x y;
   A x y ];
-A x y => A x x
+A x y => A x x;
+A x y => A x y
 end;

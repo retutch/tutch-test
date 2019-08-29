@@ -4,5 +4,6 @@ proof ee: (!x:t. A x) => (!y:t. A y) =
 begin
 [ !x:t. A x;
   !x:t. A x ];
-(!x:t. A x) => !x:t. A y
+(!x:t. A x) => !x:t. A y;
+(!z:t. A z) => (!y:t. A y)
 end;
