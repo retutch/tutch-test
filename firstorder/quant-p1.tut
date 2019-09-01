@@ -1,0 +1,11 @@
+% test pass
+
+proof ee: !x. (!x.A x) => (?x.A x) = 
+begin
+[ Let c;
+  [ !x.A x;
+    A c;
+    ?x.A x ];
+  (!x.A x) => (?x.A x) ];
+!x. (!x.A x) => (?x.A x)
+end;
