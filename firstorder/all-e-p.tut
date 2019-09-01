@@ -1,0 +1,12 @@
+% test pass
+
+proof ee: !x. (!y.A(y)) => A(x) = 
+begin
+[ Let x;
+  [ !z.A(z);
+    A(x)
+  ];
+  (!q.A(q)) => A(x)
+];
+!x. (!y.A(y)) => A(x)
+end;
