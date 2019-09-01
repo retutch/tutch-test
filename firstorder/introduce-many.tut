@@ -1,0 +1,13 @@
+% test pass
+
+proof ee: T = 
+begin
+[ Let x,
+  A x y z,
+  Let y,
+  B x y z,
+  Let z,
+  C x y z;
+  C x y z ];
+T
+end;

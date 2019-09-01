@@ -1,0 +1,12 @@
+% test reject
+
+proof ee: T = 
+begin
+[ ?x. A x;
+  [ Let x:t, A y;
+    [ B; [ B; B ]; B => B ];
+    B => B => B ];
+  B => B => B ];
+(?x. A x) => (B => B => B);
+T
+end;

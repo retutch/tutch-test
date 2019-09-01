@@ -1,0 +1,11 @@
+% test pass
+
+proof ee: T = 
+begin
+[ x : t;
+  [ A x; 
+    A x ];
+  A x => A x ];
+!y. A y => A y;
+T
+end;

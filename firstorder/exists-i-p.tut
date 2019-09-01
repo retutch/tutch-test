@@ -1,0 +1,12 @@
+% test pass
+
+proof ee: T = 
+begin
+[ ?x. A x;
+  [ Let x, A x;
+    [ B; [ B; B ]; B => B ];
+    B => B => B ];
+  B => B => B ];
+(?y. A y) => (B => B => B);
+T
+end;

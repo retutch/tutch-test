@@ -1,0 +1,11 @@
+% test reject
+
+proof ee: T = 
+begin
+[ x : t;
+  [ A x; 
+    A x ];
+  A x => A x ];
+!y. A x => A y;
+T
+end;
