@@ -1,0 +1,14 @@
+% test reject
+
+proof ee: T = 
+begin
+[ Let x; T ];
+!x. F;
+[ Let x; F ];
+!x. T;
+[ Let x; T & T ];
+!x. T | T;
+[ Let x; T => T ];
+!x. T & T;
+T
+end;

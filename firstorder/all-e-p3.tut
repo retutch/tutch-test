@@ -1,0 +1,11 @@
+% test pass
+
+proof ee: T = 
+begin
+[ Let x;
+  [ Let y; T ];
+  !x.T ];
+!x.!x.T;
+!x.T;
+T
+end;

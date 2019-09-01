@@ -1,0 +1,10 @@
+% test pass
+
+proof ee: T = 
+begin
+[ Let x;
+  [ !x.A x; !x.A x];
+  (!x.A x) => !x.A x ];
+!x. (!y.A y) => (!z. A z);
+T
+end;
