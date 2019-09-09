@@ -1,7 +1,7 @@
 Tutch Testing Format
 ====================
 
-This documents the format of Tutch specifications.
+This README documents the format of Tutch specifications.
 
 A Tutch test is a file ending in `.tut` where one or more
 lines at the beginning of the file begin with `% test`.
