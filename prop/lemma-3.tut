@@ -1,0 +1,19 @@
+% test pass
+
+proof unjust: A => A => A =
+begin
+[ A; 
+  [ A; A ];
+  A => A ];
+A => A => A
+end;
+
+proof use_unjust: A => B => A => A =
+begin
+A => A => A; % By lemma
+[ A;
+  A => A; % MP of the lemma and premise
+  [ B; A => A ];
+  B => A => A ];
+A => B => A => A
+end;
