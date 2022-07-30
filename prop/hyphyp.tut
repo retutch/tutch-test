@@ -1,0 +1,9 @@
+% test error
+
+proof fe: T =
+begin
+[ F;
+  [ F; 
+    A ] ];
+T
+end;

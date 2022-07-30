@@ -1,0 +1,9 @@
+% test error
+
+proof fe: A => A =
+begin
+[ A;
+  A ];
+A => A;
+T
+end;

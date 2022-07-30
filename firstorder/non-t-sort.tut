@@ -1,0 +1,10 @@
+% test error
+
+proof ee: T = 
+begin
+[ Let c:custom;
+  [ A c;
+    A c];
+  A c => A c ];
+T
+end;
