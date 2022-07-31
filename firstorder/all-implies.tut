@@ -1,0 +1,11 @@
+% test pass
+
+proof ee : T = 
+begin
+[ !x.A x => B c; 
+  A d => B c;
+  [ A d;
+    B c ];
+  T ];
+T
+end;

@@ -1,0 +1,8 @@
+% test pass
+
+proof ee : T = 
+begin
+[ A (h c); 
+  ?x.A (h c) ]; 
+T 
+end;

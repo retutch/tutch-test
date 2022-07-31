@@ -1,0 +1,8 @@
+% test pass
+
+proof ee : T = 
+begin
+[ ?y.A (h y c c); 
+  ?x.?y.A (h y x x) ]; 
+T 
+end;
