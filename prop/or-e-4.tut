@@ -1,0 +1,8 @@
+% test reject
+
+proof oe: A => (A & T) | B =
+begin
+[ A;
+  (A & T) | B ];
+A => (A & T) | B
+end;
