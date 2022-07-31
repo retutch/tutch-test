@@ -1,0 +1,11 @@
+% test pass
+
+proof ee : T = 
+begin
+[ Let x;
+  [ A (h x);
+    A (h x) ];
+  A (h x) => A (h x) ];
+!x.A (h x) => A (h x);
+T
+end;
