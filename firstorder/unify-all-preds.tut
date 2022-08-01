@@ -1,0 +1,8 @@
+% test pass
+
+proof ee : T = 
+begin
+[ A & (T | F) => !x. ?y. B;
+  ?x. A & (T | F) => !x. ?y. B ];
+T 
+end;
