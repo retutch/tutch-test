@@ -1,0 +1,8 @@
+% test reject
+
+proof ee : T = 
+begin
+[ A x;
+  ?x.A x x ];
+T 
+end;

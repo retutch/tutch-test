@@ -1,0 +1,8 @@
+% test reject
+
+proof ee : T = 
+begin
+[ !x.A;
+  ?x.?x.A ];
+T 
+end;
